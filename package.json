@@ -1,5 +1,5 @@
 {
-  "name": "twitter-cash-heatmap",
+  "name": "hashtag-listener",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,12 +7,9 @@
   },
   "dependencies": {
     "express": "3.1.2",
-    "jade": "*",
     "stylus": "*",
-    "socket.io": "*",
     "underscore": "*",
-    "cron": "*",
-    "cron": "fs",
+    "fs": "fs",
     "ntwitter": "*"
   }
 }

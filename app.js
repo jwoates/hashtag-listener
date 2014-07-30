@@ -1,9 +1,6 @@
 // dependencies.
 var express = require('express')
-  // , io = require('socket.io')
-  // , http = require('http')
   , twitter = require('ntwitter')
-  // , cronJob = require('cron').CronJob
   , _ = require('underscore')
   , path = require('path')
   , fs = require('fs');
@@ -16,7 +13,7 @@ var api_secret = 'yv38LSlOFmzjaH0ijkW4fFLwXDb3PF7CVjdgvCk9CG94ii13YO';
 var access_token = '1077979254-paG2anZXMWhes0Uftrfh40MBm7KgGYTzgfxyyiY';
 var access_token_secret = 'YIqxqmevGCLm6suYz1iRmSSzBlVIiNB1cvWtXEl4ADF3i';
 
-// Twitter symbols array.
+// Twitter tags array.
 var watchSymbols = ['bomni'];
 
 var watchList = {
